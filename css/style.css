@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    background-image: url("../png/sea.png");
+    background-size: 222vh;
+}
+
+.div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+    font-size: 25px;
+    font-weight: bold;
+    color: red;
+    text-shadow: yellow 1px 1px 10px, yellow -1px -1px 10px;
+    background-image: url("../png/nemo-right.gif");
+    background-size: 12vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.active { 
+    transform: scale(1.2, 0.7);
+}
